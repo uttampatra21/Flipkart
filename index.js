@@ -6,3 +6,9 @@ menuBtn.addEventListener("click", () => {
 hamburgerMenu.addEventListener("click", () => {
   hamburgerMenu.style.display = "none";
 });
+const activeLogin = document.getElementById("active-login");
+const loginMenu = document.getElementById("login-menu");
+loginMenu.addEventListener("click", () => {
+  activeLogin.style.display = "block";
+  loginMenu.style.display = "none";
+});

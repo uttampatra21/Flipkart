@@ -19,14 +19,55 @@
 }
 .form {
   background-color: #fff;
-  height: 100vh;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   padding: 2rem;
+  height: 80vh;
 }
 .form form p {
   padding: none;
   font-size: 14px;
   color: rgba(0, 0, 0, 0.6);
   margin-top: 14px;
+}
+
+#continue {
+  position: fixed;
+  bottom: 0;
+  padding: 10px;
+  left: 0;
+  background-color: #ff5800;
+  width: 100%;
+  text-align: center;
+}
+#continue button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #fff;
+  font-weight: 550;
+  font-size: 19px;
+}
+.input-login {
+  margin-top: 3rem;
+}
+.log223233 {
+  width: 300px;
+  border: 1px solid #c2c2c2;
+  padding: 10px;
+  border-radius: 5px;
+}
+.input-login input {
+  width: 100%;
+  outline: none;
+  border: none;
+}
+.terms {
+  margin-top: 2rem;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 12px;
+  letter-spacing: 0.1px;
+}
+.terms a {
+  color: #2874f0;
 }

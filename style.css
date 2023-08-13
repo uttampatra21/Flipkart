@@ -125,3 +125,14 @@ header ul {
 #sub-header ul li span {
   font-size: 14px;
 }
+#slider {
+  display: flex;
+  overflow-y: scroll;
+}
+#slider img {
+  width: 400px;
+  object-fit: cover;
+}
+#topOffer {
+  display: none;
+}

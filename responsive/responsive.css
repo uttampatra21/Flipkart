@@ -21,9 +21,16 @@
     gap: 1.5rem;
     color: #fff;
   }
+  .small-login {
+    display: flex;
+    align-items: center;
+  }
   .small-login a {
     color: #fff;
     font-weight: 500;
+  }
+  #active-login {
+    display: none;
   }
   .small-search {
     background-color: #fff;
@@ -117,5 +124,13 @@
     color: #fff;
     font-size: 10px;
     font-weight: 500;
+  }
+  #topOffer {
+    display: block;
+  }
+  .topOffer {
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
   }
 }
