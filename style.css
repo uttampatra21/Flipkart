@@ -136,3 +136,31 @@ header ul {
 #topOffer {
   display: none;
 }
+.sale {
+  background-color: #fbd5ef;
+  padding: 1rem;
+}
+.sale-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+.off {
+  color: rgba(0, 140, 0, 1);
+  padding: 5px 0;
+}
+.sales-products {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+.re3323 {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
+.ffs343 {
+  padding: 10px;
+}

@@ -133,4 +133,22 @@
     padding: 1rem;
     justify-content: center;
   }
+  .sales-products {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+  }
+  .re3323 {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+  }
+  .o0002 {
+    background-color: #fff;
+    border-radius: 2px;
+  }
+  .ffs343 {
+    padding: 10px;
+  }
 }
