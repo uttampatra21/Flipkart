@@ -129,6 +129,9 @@ header ul {
   display: flex;
   overflow-y: scroll;
 }
+#slider::-webkit-scrollbar {
+  padding: 0px;
+}
 #slider img {
   width: 400px;
   object-fit: cover;
@@ -163,4 +166,8 @@ header ul {
 }
 .ffs343 {
   padding: 10px;
+}
+.oopp000 {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
 }
