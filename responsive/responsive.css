@@ -160,16 +160,20 @@
     width: 180px;
     object-fit: scale-down;
     display: block;
-    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
   }
   .ffs343 {
     padding: 10px;
   }
-  .w00023{
+  .w00023 {
     width: 180px;
     height: 217px;
     object-fit: scale-down;
     display: block;
-}
+  }
+  .shoee {
+    display: flex;
+    padding: 10px;
   }
 }
