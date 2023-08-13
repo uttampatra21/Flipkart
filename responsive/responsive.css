@@ -51,4 +51,14 @@
   #sub-header {
     overflow-y: scroll;
   }
+  #sub-header::-webkit-scrollbar {
+    padding: 0px;
+  }
+  #sub-header ul {
+    gap: 2rem;
+    align-items: center;
+  }
+  #sub-header ul li img {
+    width: 59px;
+  }
 }
