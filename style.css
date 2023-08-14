@@ -172,15 +172,15 @@ header ul {
   border-top-left-radius: 20px;
 }
 .phones-items {
-  padding: 1rem 0;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 15px;
+  padding: 10px;
+  gap: 5px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 .pro009 {
   border-radius: 5px;
   padding: 0px 5px 8px 5px;
+  margin: 5px;
 }
 .product-item-img {
   position: relative;
