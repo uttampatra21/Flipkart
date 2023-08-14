@@ -171,3 +171,36 @@ header ul {
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
 }
+.phones-items {
+  padding: 1rem;
+}
+.pro009 {
+  border-radius: 5px;
+  padding: 0px 5px 8px 5px;
+}
+.product-item-img {
+  position: relative;
+}
+.rating {
+  position: absolute;
+  bottom: 2px;
+  padding: 3px 4px;
+  background-color: #388e3c;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 10px;
+  font-weight: 600;
+}
+.product-price {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 6px;
+}
+.current-price {
+  font-size: 10px;
+}
+.discount-price {
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+}
