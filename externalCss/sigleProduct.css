@@ -1,6 +1,10 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  padding: 1rem;
 }
 .home {
   background-color: #2874f0;
@@ -21,4 +25,51 @@
 .image-options img {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   padding: 10px;
+}
+.title {
+  padding: 1rem;
+}
+.title p {
+  color: rgb(17, 17, 18);
+  font-size: 14px;
+}
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 1rem;
+}
+.rating-star {
+  display: flex;
+  align-items: center;
+}
+.rating-star i {
+  color: rgb(0, 140, 0);
+}
+.original-price {
+  display: flex;
+  align-items: center;
+  text-decoration: line-through;
+}
+.fake-price strong {
+  display: flex;
+  align-items: center;
+}
+.off-product {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.off {
+  color: rgb(0, 140, 0);
+  font-size: larger;
+  font-weight: 600;
+}
+.free-delevery {
+  margin-top: 2rem;
+  padding: 2rem 1rem 2rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
