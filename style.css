@@ -206,6 +206,7 @@ product-item-img img {
   display: flex;
   justify-content: space-evenly;
   padding-top: 6px;
+  gap: 10px;
 }
 .current-price {
   font-size: 10px;
