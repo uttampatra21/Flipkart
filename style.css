@@ -180,10 +180,17 @@ header ul {
 }
 .pro009 {
   border-radius: 5px;
-  padding: 0px 5px 8px 5px;
+  padding: 0px 0px 8px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .product-item-img {
   position: relative;
+}
+product-item-img img {
+  display: block;
+  object-fit: cover;
 }
 .rating {
   position: absolute;
