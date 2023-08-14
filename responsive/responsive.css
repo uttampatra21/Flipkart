@@ -32,7 +32,7 @@
   #active-login {
     display: none;
   }
-  .small-search {
+  .small-search a {
     background-color: #fff;
     padding: 10px;
     display: flex;
