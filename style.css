@@ -172,7 +172,11 @@ header ul {
   border-top-left-radius: 20px;
 }
 .phones-items {
-  padding: 1rem;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
 }
 .pro009 {
   border-radius: 5px;
