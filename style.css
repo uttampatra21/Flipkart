@@ -174,13 +174,13 @@ header ul {
 .phones-items {
   padding: 10px;
   gap: 5px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .pro009 {
   border-radius: 5px;
   padding: 0px 5px 8px 5px;
-  margin: 5px;
 }
 .product-item-img {
   position: relative;
