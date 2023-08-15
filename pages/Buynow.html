@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Payment</title>
-    <link rel="stylesheet" href="/externalCss/Payment.css" />
+    <link rel="stylesheet" href="/externalCss/BuyNow.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Header -->
@@ -28,6 +32,51 @@
         <div class="round"><h4>3</h4></div>
         <span style="color: rgb(113, 116, 120)">Payment</span>
       </div>
+    </div>
+    <!-- Form -->
+    <div class="address">
+      <form action="">
+        <div class="name add0099">
+          <input type="text" placeholder="Full Name (Required)" required />
+        </div>
+        <div class="phone-number add0099">
+          <input type="number" placeholder="Phone number (Required)" required />
+        </div>
+        <div class="pin-code add0099">
+          <input type="number" placeholder="Pincode (Required)" required />
+        </div>
+        <div class="state add0099">
+          <input type="text" placeholder="State" required />
+        </div>
+        <div class="city add0099">
+          <input type="text" placeholder="City (Required)" required />
+        </div>
+        <div class="house-no add0099">
+          <input
+            type="text"
+            placeholder="House No. Building Name (Required)"
+            required
+          />
+        </div>
+        <div class="road-name add0099">
+          <input type="text" placeholder="Road name, Area, Colony (Requried)" />
+        </div>
+
+        <div class="typeOf-address">
+          <p>Type of adrress</p>
+          <div class="location">
+            <div class="home"><i class="bx bxs-home"></i><span>Home</span></div>
+            <div class="work">
+              <i class="bx bxs-briefcase-alt-2"></i><span>Work</span>
+            </div>
+          </div>
+        </div>
+        <div class="submit">
+          <button type="submit">
+            <a href=""> Save Address </a>
+          </button>
+        </div>
+      </form>
     </div>
   </body>
 </html>
