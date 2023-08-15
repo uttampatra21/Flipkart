@@ -41,7 +41,6 @@ input {
   padding: 2rem;
 }
 .add0099 {
-  width: 100%;
   border: 1px solid rgb(113, 116, 120);
   padding: 10px;
   border-radius: 5px;
@@ -76,7 +75,6 @@ input {
   color: rgb(42, 85, 229);
 }
 .submit {
-  width: 100%;
   background-color: #fb641b;
   color: #fff;
   text-align: center;
