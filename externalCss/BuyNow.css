@@ -30,7 +30,7 @@
   font-size: 12px;
 }
 
-input {
+.pay009 input {
   border: none;
   outline: none;
   background-color: #fff;
@@ -89,12 +89,50 @@ input {
 }
 .payment-methods {
   margin-top: 2rem;
+}
+.suggest-for-you {
   padding: 1rem;
 }
 .round {
   position: relative;
 }
-
+.ee333 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.slice-card,
+.paytm999 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.paytm99 {
+  display: flex;
+  justify-content: space-between;
+}
+.slice {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.payment-methods input {
+  width: 25px;
+  height: 25px;
+}
+.card-name {
+  font-size: 14px;
+}
+.unlock {
+  text-decoration: none;
+  padding: 10px;
+  background-color: #fb641b;
+  color: #ffffff;
+  border-radius: 5px;
+  letter-spacing: 0.3px;
+  font-weight: 600;
+}
 .payment {
   position: fixed;
   bottom: 0;
@@ -113,4 +151,6 @@ input {
   background-color: #fb641b;
   padding: 10px 3rem;
   border-radius: 2px;
+  letter-spacing: 0.3px;
+  font-weight: 600;
 }
