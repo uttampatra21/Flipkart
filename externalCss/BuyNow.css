@@ -35,7 +35,7 @@ input {
   outline: none;
   background-color: #fff;
   width: 100%;
-  padding: 10px;
+  padding: 10px 0;
 }
 .address {
   padding: 2rem;
@@ -59,14 +59,16 @@ input {
   display: flex;
   gap: 2rem;
 }
-.home,
-.work {
+.home {
   padding: 10px 18px;
-  border: 1px solid rgb(113, 116, 120);
+  border: 1px solid rgb(126, 129, 133);
   border-radius: 25px;
 }
-.home i,
-.work i {
+.home i {
   font-size: 1rem;
   padding: 0 10px;
+}
+.home:hover {
+  border: 1px solid rgb(42, 85, 229);
+  color: rgb(42, 85, 229);
 }
