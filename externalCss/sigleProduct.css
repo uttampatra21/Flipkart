@@ -136,10 +136,30 @@ body {
   margin-top: 1rem;
   background-color: #fff;
 }
+.config {
+  padding: 1rem 0;
+}
 .config09jj {
   display: flex;
-  gap: 1rem;
+  gap: 1.2rem;
   align-items: center;
+}
+.ram-det {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.config09jj h3 {
+  color: rgb(113, 116, 120);
+  font-weight: 500;
+}
+.config09jj p {
+  font: 18px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", sans-serif;
+}
+.config09jj span {
+  font-weight: 300;
+  color: #181818;
 }
 /* !BUY */
 .buyNow {
