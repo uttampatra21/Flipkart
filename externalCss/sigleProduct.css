@@ -164,6 +164,28 @@ body {
   font-weight: 300;
   color: #181818;
 }
+.more-detls {
+  background-color: #fff;
+}
+.others-detl-cont {
+  display: flex;
+  flex-direction: column;
+}
+.oth00oo9 {
+  padding: 1.5rem 1rem;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+.oth00oo9 h3 {
+  font-weight: 500;
+  color: rgb(113, 116, 120);
+}
+.oth00oo9 p {
+  font-size: 1.2rem;
+}
+
 /* !BUY */
 .buyNow {
   position: fixed;
