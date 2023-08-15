@@ -112,6 +112,9 @@
   display: flex;
   justify-content: space-between;
 }
+.pd1rem {
+  margin: 2rem 0;
+}
 .slice {
   display: flex;
   flex-direction: column;
