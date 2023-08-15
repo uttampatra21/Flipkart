@@ -98,15 +98,35 @@ body {
   color: rgb(17, 17, 18);
   font-size: 14px;
 }
-.se777 img {
-  /* width: 100%; */
+.offer {
+  color: rgb(113, 116, 120);
+  padding: 1rem 0;
+}
+.with-offer {
+  background-color: #fff;
+  padding: 1rem;
+}
+.offer-container {
+  margin-top: 0.5rem;
+  padding: 20px 10px;
+  border: 1px solid rgb(113, 116, 120);
+  border-radius: 5px;
+}
+.fastival-offer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.offer-det00 p {
+  font-size: 14px;
 }
 /* ! */
 .buyNow {
   position: fixed;
   bottom: 0;
   width: 100%;
-  text-align: center;
+  display: flex;
+  justify-content: center;
   background-color: rgb(255, 194, 0);
   padding: 15px;
 }
