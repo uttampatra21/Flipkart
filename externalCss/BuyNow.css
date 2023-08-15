@@ -57,16 +57,19 @@ input {
 .location {
   padding: 1rem 0;
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
 }
 .home {
-  padding: 10px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 15px;
   border: 1px solid rgb(126, 129, 133);
   border-radius: 25px;
 }
 .home i {
   font-size: 1rem;
-  padding: 0 10px;
+  padding-right: 10px;
 }
 .home:hover {
   border: 1px solid rgb(42, 85, 229);
