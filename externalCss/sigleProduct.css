@@ -155,10 +155,10 @@ body {
 .config09jj h3 {
   color: rgb(113, 116, 120);
   font-weight: 500;
+  font-size: 1rem;
 }
 .config09jj p {
-  font: 18px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Ubuntu, "Helvetica Neue", sans-serif;
+  font-size: 16px;
 }
 .config09jj span {
   font-weight: 300;
