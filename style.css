@@ -12,6 +12,7 @@ html {
 .small-nav {
   display: none;
 }
+
 header {
   background-color: #2874f0;
   padding: 12px 0;
@@ -125,15 +126,9 @@ header ul {
 #sub-header ul li span {
   font-size: 14px;
 }
-#slider {
-  display: flex;
-  overflow-y: scroll;
-}
-#slider::-webkit-scrollbar {
-  padding: 0px;
-}
+
 #slider img {
-  width: 400px;
+  width: 100%;
   object-fit: cover;
 }
 #topOffer {
