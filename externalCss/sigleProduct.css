@@ -256,6 +256,28 @@ body {
   align-items: center;
   gap: 10px;
 }
+.reviews {
+  background-color: #fff;
+}
+.reviews-cont {
+  padding: 1rem;
+}
+.name {
+  display: flex;
+  gap: 10px;
+  padding: 1rem 0;
+}
+.name span {
+  font-size: 13px;
+}
+.rew-det {
+  font-size: 14px;
+}
+.verified {
+  padding: 0.4rem 0;
+  color: rgb(135, 135, 135);
+  font-size: 12px;
+}
 /* !BUY */
 .buyNow {
   position: fixed;
