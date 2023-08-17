@@ -5,14 +5,39 @@ const productsObj = [
     date: "Verified Purchase 11 months ago",
   },
   {
-    title: "Terrific Purches",
-    det: "indian unit,great 📷 ,great display",
-    date: "Verified Purchase 11 months ago",
+    title: "Briliant",
+    det: "Just WOW!! Best in all segment!!",
+    date: "Verified Purchase 10 months ago",
   },
   {
-    title: "Terrific Purches",
-    det: "indian unit,great 📷 ,great display",
-    date: "Verified Purchase 11 months ago",
+    title: "Best in the market!",
+    det: "Superb performance and well.",
+    date: "Verified Purchase 10 months ago",
+  },
+  {
+    title: "Highly recommended",
+    det: "Best phone forever and Good Gaming Experience and Battery life",
+    date: "Verified Purchase 4 months ago",
+  },
+  {
+    title: "Simply Awesome",
+    det: "Best ❤️🔥🔥",
+    date: "Verified Purchase 10 months ago",
+  },
+  {
+    title: "Briliant",
+    det: "Awesome iPhone with best camera quality 48 megapixel is 👌",
+    date: "Verified Purchase 3 months ago",
+  },
+  {
+    title: "Perfect Product",
+    det: "Perfect Product !",
+    date: "Verified Purchase 1 years ago",
+  },
+  {
+    title: "Delightful",
+    det: "Worth upgrading from iPhone 11 to iPhone 14 Pro 😊",
+    date: "Verified Purchase 2 months ago",
   },
 ];
 
