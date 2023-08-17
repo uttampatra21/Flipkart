@@ -22,7 +22,7 @@ body {
 .image-options {
   display: flex;
   gap: 10px;
-  padding-top: 1rem;
+  padding-top: 0.8rem;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   overflow-y: scroll;
 }
@@ -35,6 +35,9 @@ body {
   width: 70px;
   height: 70px;
   object-fit: cover;
+}
+.image-options img:hover {
+  border: 1px solid rgb(0, 140, 0);
 }
 .title {
   padding: 1rem;
@@ -254,6 +257,10 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.number-of-rating {
+  color: rgb(135, 135, 135);
+  font-size: 12px;
+}
 .five555stR {
   display: flex;
   align-items: center;
@@ -296,7 +303,7 @@ body {
   gap: 1rem;
 }
 .onebj99 img {
-  width: 60px;
+  width: 50px;
 }
 .onebj99 span {
   font-size: 12px;
@@ -314,6 +321,13 @@ body {
   width: 100%;
   display: block;
 }
+.scroll-product {
+  background-color: #fff;
+  padding: 1rem;
+}
+.scroll-product-cont img {
+  width: 100px;
+}
 /* !BUY */
 .buyNow {
   position: fixed;
@@ -325,6 +339,7 @@ body {
   padding: 15px;
 }
 .buyNow {
+  display: none;
   width: 100%;
   /* background-color: rgb(255, 194, 0); */
   background-color: #fb641b;

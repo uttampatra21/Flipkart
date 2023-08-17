@@ -39,6 +39,16 @@ const productsObj = [
     det: "Worth upgrading from iPhone 11 to iPhone 14 Pro 😊",
     date: "Verified Purchase 2 months ago",
   },
+  {
+    title: "Super!",
+    det: "Very good product thankyou flipkart ⭐⭐⭐⭐⭐👌👌",
+    date: "Verified Purchase 5 months ago",
+  },
+  {
+    title: "perfect!",
+    det: "Super smart phone at a very reasonable price.The same configuration mobile costs more than 15 for different brands.👌👌",
+    date: "Verified Purchase 1 months ago",
+  },
 ];
 
 const reviews = document.getElementById("reviews");
