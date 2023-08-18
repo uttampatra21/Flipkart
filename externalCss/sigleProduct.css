@@ -329,23 +329,16 @@ body {
   width: 100px;
 }
 /* !BUY */
-.buyNow {
+.buy {
+  background-color: #fb641b;
   position: fixed;
   bottom: 0;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  background-color: rgb(255, 194, 0);
-  padding: 15px;
+  text-align: center;
+  padding: 10px;
 }
-.buyNow {
-  display: none;
-  width: 100%;
-  /* background-color: rgb(255, 194, 0); */
-  background-color: #fb641b;
+.buy a {
   text-decoration: none;
-  color: #fff;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-  font-size: 18px;
+  color: #ffffff;
+  font-size: 15px;
 }

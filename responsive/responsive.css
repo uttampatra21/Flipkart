@@ -57,6 +57,7 @@
   }
   #sub-header {
     overflow-y: scroll;
+    display: none;
   }
   #sub-header::-webkit-scrollbar {
     padding: 0px;

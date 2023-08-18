@@ -41,6 +41,9 @@
         <span style="color: rgb(113, 116, 120)">Payment</span>
       </div>
     </div>
+    <div style="padding-top: 2rem; text-align: center;">
+      <span id="time" style="color: red; font-weight: 600;"></span><span style="color: red; font-weight: 600;"> minutes left</span>
+    </div>
     <div class="payment-methods">
       <div class="suggest-for-you">
         <p>Suggested for you</p>
@@ -131,8 +134,8 @@
                 <span class="card-name"
                   >Cash on Delivery</span
                 >
-                <span style="color: #787878; font-size: 12px;" >Pay only ₹499 as advance and balance amount as <br> cash on delivery.</span>
-               <div class="pay500"> <a class="unlock" href="https://paytm.me/WS-JcAk"> Pay ₹499 now</a></div>
+                <span style="color: #787878; font-size: 12px;" >Pay only ₹2999 as advance and balance amount as <br> cash on delivery.</span>
+               <div class="pay500"> <a class="unlock" href="https://paytm.me/8-cJqKq"> Pay ₹2999 now</a></div>
               </div>
             </div>
             
@@ -145,8 +148,45 @@
       </div>
     </div>
     <div class="payment">
-      <div class="price">₹9,999,000</div>
-      <a href="https://paytm.me/Ia-XW1s"> Continue </a>
+      <div class="price">₹4,999 only /-</div>
+      <a href="https://paytm.me/a-rPQTq"> Continue </a>
     </div>
   </body>
+  <script>
+    function startTimer(duration, display) {
+      var start = Date.now(),
+        diff,
+        minutes,
+        seconds;
+      function timer() {
+        // get the number of seconds that have elapsed since
+        // startTimer() was called
+        diff = duration - (((Date.now() - start) / 1000) | 0);
+
+        // does the same job as parseInt truncates the float
+        minutes = (diff / 60) | 0;
+        seconds = diff % 60 | 0;
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.textContent = minutes + ":" + seconds;
+
+        if (diff <= 0) {
+          // add one second so that the count down starts at the full duration
+          // example 05:00 not 04:59
+          start = Date.now() + 1000;
+        }
+      }
+      // we don't want to wait a full second before the timer starts
+      timer();
+      setInterval(timer, 1000);
+    }
+
+    window.onload = function () {
+      var fiveMinutes = 60 * 5,
+        display = document.querySelector("#time");
+      startTimer(fiveMinutes, display);
+    };
+  </script>
 </html>
