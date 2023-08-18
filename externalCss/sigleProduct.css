@@ -343,6 +343,8 @@ body {
 .scroll-product-cont img {
   width: 130px;
   display: block;
+  /* height: 150px; */
+  object-fit: contain;
 }
 .scroll-product-cont .title {
   font-size: 10px;
