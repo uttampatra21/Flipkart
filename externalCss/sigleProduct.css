@@ -324,9 +324,24 @@ body {
 .scroll-product {
   background-color: #fff;
   padding: 1rem;
+  margin-bottom: 2rem;
+}
+.scroll-product-cont {
+  width: 200px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
 }
 .scroll-product-cont img {
   width: 100px;
+}
+.scroll-product-cont .title {
+  font-size: 10px;
+  text-align: start;
 }
 /* !BUY */
 .buy {
