@@ -337,7 +337,8 @@ body {
   border-radius: 5px;
 }
 .scroll-product-cont img {
-  width: 100px;
+  width: 150px;
+  display: block;
 }
 .scroll-product-cont .title {
   font-size: 10px;
