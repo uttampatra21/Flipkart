@@ -202,5 +202,6 @@
     align-items: center;
     font-weight: 600;
     letter-spacing: 0.2px;
+    user-select: none;
   }
 }
