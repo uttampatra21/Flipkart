@@ -185,4 +185,22 @@
       rgba(17, 17, 26, 0.1) 0px 0px 8px;
     width: 110px;
   }
+  #refresh {
+    position: fixed;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .refress {
+    padding: 8px 20px;
+    border-radius: 30px;
+    background-color: #2874f0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+  }
 }
