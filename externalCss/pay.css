@@ -26,7 +26,8 @@ a {
 .op-pa99 i {
   font-size: 2.5rem;
   font-weight: 100;
-  color: rgb(17, 16, 16);
+  color: rgba(0, 0, 0, 0.668);
+  opacity: 0.5;
 }
 .methods {
   gap: 20px;
