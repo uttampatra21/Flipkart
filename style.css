@@ -231,8 +231,12 @@ product-item-img img {
   display: flex;
   align-items: center;
   padding: 10px 0;
-  gap: 1rem;
+  gap: 0.8rem;
+}
+.det-p90 p {
+  font-size: 14px;
 }
 .price-dis .curr {
+  font-size: 12px;
   text-decoration: line-through;
 }
