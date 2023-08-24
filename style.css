@@ -210,3 +210,29 @@ product-item-img img {
   display: flex;
   align-items: center;
 }
+#newprd {
+  padding-top: 1rem;
+  background-color: #fff;
+}
+
+.new-cont {
+  padding: 0 1rem;
+}
+.new-cont a {
+  display: flex;
+  padding: 10px;
+  gap: 1rem;
+  color: #000;
+}
+.new-cont img {
+  width: 100px;
+}
+.price-dis {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  gap: 1rem;
+}
+.price-dis .curr {
+  text-decoration: line-through;
+}
