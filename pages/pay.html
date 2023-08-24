@@ -112,7 +112,7 @@
           </div>
         </a>
         <hr />
-        <div class="px-1 op-pa99">
+        <div class="px-1 op-pa99" id="qrcode">
           <div class="methods">
             <img
               src="https://i.pinimg.com/originals/a8/69/40/a86940a4ed8a69539b341f3c414c47b3.png"
@@ -137,9 +137,26 @@
         alt=""
       />
     </div>
+
+    <!--  -->
+    <div class="qr">
+      <i class="bx bx-x" id="x"></i>
+      <img
+        width="80%"
+        src="https://www.investopedia.com/thmb/hJrIBjjMBGfx0oa_bHAgZ9AWyn0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/qr-code-bc94057f452f4806af70fd34540f72ad.png"
+        alt=""
+      />
+    </div>
   </body>
   <script>
     const rn = 100 + Math.floor(Math.random() * 9000);
     document.getElementById("ran").textContent = rn;
+
+    document.getElementById("x").addEventListener("click", () => {
+      document.querySelector(".qr").style.display = "none";
+    });
+    document.getElementById("qrcode").addEventListener("click", () => {
+      document.querySelector(".qr").style.visibility = "visible";
+    });
   </script>
 </html>
