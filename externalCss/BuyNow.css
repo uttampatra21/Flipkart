@@ -163,3 +163,12 @@
   letter-spacing: 0.3px;
   font-weight: 600;
 }
+.home input {
+  font-size: 2rem;
+}
+.home i {
+  display: none;
+}
+.home span {
+  padding: 0 10px;
+}
