@@ -79,6 +79,11 @@ const productsObj = [
     det: "Awesone product in less price 😊.",
     date: "Verified Purchase 5 months ago",
   },
+  {
+    title: "amazing !",
+    det: "Awesome phone. Camera performance... goodBattery: GoodDisplay: Awesome",
+    date: "Verified Purchase 2 months ago",
+  },
 ];
 
 const reviews = document.getElementById("reviews");
