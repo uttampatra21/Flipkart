@@ -69,6 +69,16 @@ const productsObj = [
     det: "Worth upgrading  😊",
     date: "Verified Purchase 2 months ago",
   },
+  {
+    title: "Terrific Purches",
+    det: "indian unit,great 📷 ,great display",
+    date: "Verified Purchase 11 months ago",
+  },
+  {
+    title: "Wonderful !",
+    det: "Awesone product in less price 😊.",
+    date: "Verified Purchase 5 months ago",
+  },
 ];
 
 const reviews = document.getElementById("reviews");
