@@ -11,7 +11,7 @@ a {
     rgba(17, 17, 26, 0.1) 0px 10px 18px;
 }
 .methods img {
-  width: 50px;
+  width: 40px;
   object-fit: contain;
 }
 .op-pa99 {
@@ -42,6 +42,7 @@ a {
 }
 .pay-method p {
   opacity: 0.7;
+  font-size: 0.8rem;
 }
 .power {
   position: fixed;
