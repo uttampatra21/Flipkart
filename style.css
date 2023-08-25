@@ -275,6 +275,11 @@ product-item-img img {
   text-align: center;
   padding: 1rem;
 }
+.s40p {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 .rel11pro a {
   display: flex;
   flex-direction: column;
