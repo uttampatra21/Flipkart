@@ -9,6 +9,9 @@
 html {
   scroll-behavior: smooth;
 }
+body {
+  background-color: #fff;
+}
 .small-nav {
   display: none;
 }
@@ -274,4 +277,22 @@ product-item-img img {
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+#cont-fmob {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+#cont-fmob img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+#cont-fmob p {
+  font-size: 12px;
+  font-weight: 300;
+}
+#cont-fmob strong {
+  font-size: 14px;
+  font-weight: 500;
 }
