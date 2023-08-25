@@ -286,6 +286,8 @@ product-item-img img {
 }
 #cont-fmob img {
   width: 100%;
+  height: 200px;
+  object-fit: contain;
   margin-bottom: 10px;
 }
 #cont-fmob p {
