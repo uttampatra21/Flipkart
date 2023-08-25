@@ -261,11 +261,13 @@ product-item-img img {
   flex-direction: column;
   justify-content: center;
 }
+.s60p {
+  border-right: 1px solid rgb(211 208 208 / 80%);
+}
 .s60p,
 .s40p {
   text-align: center;
   padding: 1rem;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px -6px 3px -1px;
 }
 .rel11pro a {
   display: flex;
