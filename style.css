@@ -250,14 +250,27 @@ product-item-img img {
   margin-top: 10px;
   align-items: center;
 }
-.s40p {
+.gird-prod img {
+  padding-bottom: 10px;
+}
+.gird-prod a {
+  color: #000;
+}
+.s40p a {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .s60p,
 .s40p {
+  text-align: center;
   padding: 1rem;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 0px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.rel11pro a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
