@@ -56,6 +56,11 @@ a {
   padding: 10px;
   background-color: #ffff;
 }
+.power h3 {
+  font-size: 18px;
+  user-select: none;
+}
+
 /*  */
 .qr {
   visibility: hidden;
