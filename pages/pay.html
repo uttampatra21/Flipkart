@@ -51,7 +51,7 @@
           </div>
         </div>
         <hr />
-        <div class="px-1 op-pa99" id="qrcode">
+        <div class="px-1 op-pa99" id="phonepay">
           <div class="methods">
             <img
               style="border-radius: 0%"
@@ -67,7 +67,7 @@
           </div>
         </div>
         <hr />
-        <div class="px-1 op-pa99" id="qrcode">
+        <div class="px-1 op-pa99" id="bhim">
           <div class="methods">
             <img
               style="border-radius: 0%"
@@ -99,6 +99,21 @@
       <i class="bx bx-x" id="x"></i>
       <img width="80%" src="/img/gpay.jpeg" />
     </div>
+    <!-- !phonePay -->
+    <div class="phonePay">
+      <i class="bx bx-x" id="y"></i>
+      <img width="80%" src="/img/phone.jpeg" />
+    </div>
+    <!-- ! GOoglePay -->
+    <div class="phonePay">
+      <i class="bx bx-x" id="x"></i>
+      <img width="80%" src="/img/gpay.jpeg" />
+    </div>
+    <!-- ! BIM -->
+    <div class="bhim">
+      <i class="bx bx-x" id="z"></i>
+      <img width="80%" src="/img/bhim.jpeg" />
+    </div>
   </body>
   <script>
     const rn = 100 + Math.floor(Math.random() * 9000);
@@ -109,6 +124,22 @@
     });
     document.getElementById("qrcode").addEventListener("click", () => {
       document.querySelector(".qr").style.visibility = "visible";
+    });
+
+    //! Phone pAy
+    document.getElementById("phonepay").addEventListener("click", () => {
+      document.querySelector(".phonePay").style.visibility = "visible";
+    });
+    document.getElementById("y").addEventListener("click", () => {
+      document.querySelector(".phonePay").style.visibility = "hidden";
+    });
+
+    // Bhim
+    document.getElementById("bhim").addEventListener("click", () => {
+      document.querySelector(".bhim").style.visibility = "visible";
+    });
+    document.getElementById("z").addEventListener("click", () => {
+      document.querySelector(".bhim").style.visibility = "hidden";
     });
   </script>
 </html>
