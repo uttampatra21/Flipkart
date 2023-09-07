@@ -522,7 +522,7 @@ document.getElementById("body").innerHTML = `
         </div>
       </div>
       <div className="product-title">
-        <p style="font-size: 9px; padding-top: 1px">Infinix Note 30...</p>
+        <p style="font-size: 9px; padding-top: 1px">Infinix Hot 30...</p>
       </div>
       <div class="product-price">
         <span class="current-price" style="text-decoration: line-through"
@@ -591,7 +591,7 @@ document.getElementById("body").innerHTML = `
       alt=""
     />
     <div class="det-p90">
-      <p><Strong>VIVO</Strong> T2x 5G (Aurora Gold, 128 GB) (4 GB RAM)</p>
+      <p><Strong>vivo</Strong> T2x 5G (Aurora Gold, 128 GB) (4 GB RAM)</p>
       <div class="price-dis">
         <span class="curr">₹17,999</span>
         <strong>₹8,999</strong>
@@ -623,7 +623,7 @@ document.getElementById("body").innerHTML = `
       src="https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/4/h/e/-original-imagzjhwmsamexfk.jpeg?q=70"
     />
     <div class="det-p90">
-      <p><strong>VIVO</strong> T2x 5G (Glimmer Black, 128 GB) (8 GB RAM)</p>
+      <p><strong>vivo</strong> T2x 5G (Glimmer Black, 128 GB) (8 GB RAM)</p>
       <div class="price-dis">
         <span class="curr">₹20,999</span>
         <strong>₹9,990</strong>
