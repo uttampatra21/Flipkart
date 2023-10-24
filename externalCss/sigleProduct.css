@@ -382,8 +382,9 @@ body {
   left: 0;
   width: 100%;
   text-align: center;
-  padding: 15px;
+  padding: 15px 0;
   color: #ffffff;
+  display: flex;justify-content: center;
 }
 .buy a {
   text-decoration: none;

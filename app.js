@@ -1,4 +1,3 @@
-document.getElementById("body").innerHTML = `
 
 <header>
 <nav>
@@ -651,4 +650,3 @@ document.getElementById("body").innerHTML = `
   <i class="bx bx-refresh" style="font-size: 1.5rem"></i>Refresh Page
 </p>
 </div>
-`;

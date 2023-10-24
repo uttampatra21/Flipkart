@@ -5,6 +5,11 @@ const productsObj = [
     date: "Verified Purchase 11 months ago",
   },
   {
+    title: "Highly recommended",
+    det: "Best phone forever and Good Gaming Experience and Battery life",
+    date: "Verified Purchase 4 months ago",
+  },
+  {
     title: "Briliant",
     det: "Just WOW!! Best in all segment!!",
     date: "Verified Purchase 10 months ago",
@@ -53,6 +58,11 @@ const productsObj = [
     title: "perfect!",
     det: "Super smart phone at a very reasonable price.The same configuration mobile costs more than 15 for different brands.👌👌",
     date: "Verified Purchase 1 months ago",
+  },
+  {
+    title: "Highly recommended",
+    det: "Best phone forever and Good Gaming Experience and Battery life",
+    date: "Verified Purchase 4 months ago",
   },
   {
     title: "Excelent!",
